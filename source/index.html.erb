@@ -1,36 +1,7 @@
-<!doctype html>
-<html>
-<head>
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta charset="utf-8">
-  <!-- <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"> -->
-  <meta name="viewport" content="width=device-width"/>
-
-  <!-- Use title if it's in the page YAML frontmatter -->
-  <title>Rails Camp Queensland</title>
-
-  <!-- Javascript -->
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvdo_7z_MWK5Qs-APEHkDrRra4qXrAKkI&callback=initMap" async defer></script>
-  <script src="javascripts/all.js"></script>
-
-  <!-- Fonts -->
-  <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-  <!-- Styles -->
-  <link href="stylesheets/site.css" rel="stylesheet"/>
-</head>
-
-<body class="index">
-
-<div class="container theme-showcase" role="main">
-
-  </br>
+<div id="main" class="container theme-showcase" role="main">
 
   <div id="info" class="well">
-    <h2>About <span style="color:#FC064F">#RailsCamp20</span></h2>
+    <h2>About <span class="text-secondary">#RailsCamp20</span></h2>
     <p>
       Rails Camp is a full weekend retreat for people interested in
       web development to gather and be awesome together.
@@ -40,41 +11,33 @@
       we welcome anyone interested in programming or web technologies to join us.
     </p>
 
-    <div class="row flex">
+    <div id="calendar" class="row">
       <div class="col-sm-3">
-        <ul class="list-group">
-          <h4 class="list-group-item centre list-head">Friday</h4>
-          <li class="list-group-item panel-flex centre">
-            Buses to campsite, welcome talk, dinner, socialising
-          </li>
-        </ul>
+        <div class="panel">
+          <h3 class="centre">Friday</h3>
+          Buses to campsite, welcome talk, dinner, socialising
+        </div>
       </div><!-- /.col-sm-3 -->
 
       <div class="col-sm-3">
-        <ul class="list-group">
-          <h4 class="list-group-item centre list-head">Saturday</h4>
-          <li class="list-group-item centre panel-flex">
-            Talks, hacking, socialising
-          </li>
-        </ul>
+        <div class="panel">
+          <h3 class="centre">Saturday</h3>
+          Talks, hacking, socialising
+        </div>
       </div><!-- /.col-sm-3 -->
 
       <div class="col-sm-3">
-        <ul class="list-group">
-          <h4 class="list-group-item centre list-head">Sunday</h4>
-          <li class="list-group-item centre panel-flex">
-            Talks, Ruby Australia meeting, hacking, socialising, demos
-          </li>
-        </ul>
+        <div class="panel">
+          <h3 class="centre">Sunday</h3>
+          Talks, Ruby Australia meeting, hacking, socialising, demos
+        </div>
       </div><!-- /.col-sm-3 -->
 
       <div class="col-sm-3">
-        <ul class="list-group">
-          <h4 class="list-group-item centre list-head">Monday</h4>
-          <li class="list-group-item centre panel-flex">
-            Buses to airport
-          </li>
-        </ul>
+        <div class="panel">
+          <h3 class="centre">Monday</h3>
+          Buses to airport
+        </div>
       </div>
     </div>
 
