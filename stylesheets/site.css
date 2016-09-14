@@ -7647,11 +7647,27 @@ a {
 /* line 37, index.scss */
 .hero-unit {
   background: url(../images/background1.jpg) no-repeat center top;
-  height: 100%;
+  height: 500px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+#main {
+  margin-top: -400px;
+}
+
+#calendar .panel {
+  padding: 10px;
+  min-height: 160px;
+}
+
+#calendar .panel h3 {
+  font-size: 1.3em;
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 8px;
+  margin: 0 0 12px;
+}
 
 /* line 47, index.scss */
 .navbar {
