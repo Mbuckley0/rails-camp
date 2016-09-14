@@ -11,9 +11,10 @@ To see the current built version go [here](http://lkhennessy.github.io/rails-cam
 Install [Middleman](https://github.com/middleman/middleman)
 
 1. Fork
-2. Edit
-3. Push
-4. Pull
+2. Checkout `gh-pages` branch
+3. Edit
+4. Push
+5. Pull
 
 See [Bootstrap Sass](https://github.com/twbs/bootstrap-sass) for Bootstrap info.
 
